@@ -46,6 +46,7 @@ Das schreiben des Programmes war allerdings sehr mühsam, da es oft nicht klar i
 Ich habe auch in sehr unregelmässigen Zeitabständen Programmiert.
 
 Ich werde mir desshalb vornehmen, weniger unregelmässig zu Programmieren.
+   
 
 
 
