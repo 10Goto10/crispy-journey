@@ -21,6 +21,7 @@ Dieses Programm ist für den Commodore VC20. Ich habe diesen Computer gewählt, 
 "Colors" ist lediglich ein sogenanntes Label, es wird schlussendlich nicht im Speicher auftauchen.
 Bei der bcc-Instruktion wird es durch die Speicheradresse der inx-Instruktion ersetzt.
 ``
+
         ldx #$00      ;lade die Zahl 0 ins X-Register
         
 colors                ; 
