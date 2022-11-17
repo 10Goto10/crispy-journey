@@ -22,17 +22,17 @@ Dieses Programm ist für den Commodore VC20. Ich habe diesen Computer gewählt, 
 Bei der bcc-Instruktion wird es durch die Speicheradresse der inx-Instruktion ersetzt.
 ``
 
-                ldx #$00      ;lade die Zahl 0 ins X-Register
+        ldx #$00      ;lade die Zahl 0 ins X-Register
         
-        colors                ; 
+colors                
 
-                inx           ;ändere die Zahl im X-Register um 1
+        inx           ;ändere die Zahl im X-Register um 1
         
-                stx $900f     ;schreibe die Zahl im X-Register in die Speicheraddresse $900f (das $ zeigt an, dass es sich hier um eine Hexadezimale Zahl handelt)
+        stx $900f     ;schreibe die Zahl im X-Register in die Speicheraddresse $900f (das $ zeigt an, dass es sich hier um eine Hexadezimale Zahl handelt)
         
-                cpx #$ff      ;vergleiche X mit der zahl 255 (hex ff)
+        cpx #$ff      ;vergleiche X mit der zahl 255 (hex ff)
         
-                bcc colors    ;falls die Zahlen nich gleich sind, wiederhole den loop
+        bcc colors    ;falls die Zahlen nich gleich sind, wiederhole den loop
         
  ``       
         
